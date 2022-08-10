@@ -9,6 +9,7 @@
       "FileManagerApi/1.0.0": {
         "dependencies": {
           "HotChocolate.AspNetCore": "12.12.1",
+          "HotChocolate.Data": "12.12.1",
           "Microsoft.EntityFrameworkCore": "6.0.0",
           "Microsoft.EntityFrameworkCore.Design": "6.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0"
@@ -62,6 +63,18 @@
         },
         "runtime": {
           "lib/net6.0/HotChocolate.AspNetCore.dll": {
+            "assemblyVersion": "12.12.1.0",
+            "fileVersion": "12.12.1.0"
+          }
+        }
+      },
+      "HotChocolate.Data/12.12.1": {
+        "dependencies": {
+          "HotChocolate.Execution": "12.12.1",
+          "HotChocolate.Types.CursorPagination": "12.12.1"
+        },
+        "runtime": {
+          "lib/net6.0/HotChocolate.Data.dll": {
             "assemblyVersion": "12.12.1.0",
             "fileVersion": "12.12.1.0"
           }
@@ -746,6 +759,13 @@
       "sha512": "sha512-PJ5KnW6zEwzMhpXcivl/7rT0og51DsVJyN+GdUV8/we0R5FvfrJKyUWv97DyRMOvUJ5c5mYZK3xDO7YtnQ+J0A==",
       "path": "hotchocolate.aspnetcore/12.12.1",
       "hashPath": "hotchocolate.aspnetcore.12.12.1.nupkg.sha512"
+    },
+    "HotChocolate.Data/12.12.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xRnMjhsbdG0loDzR7U+zWglU+u1vmhR5xmP2BkGEmzQku+LZ45B3MfeaYv+S7Zk9w246t2lhRHFlkWBSLec88w==",
+      "path": "hotchocolate.data/12.12.1",
+      "hashPath": "hotchocolate.data.12.12.1.nupkg.sha512"
     },
     "HotChocolate.Execution/12.12.1": {
       "type": "package",

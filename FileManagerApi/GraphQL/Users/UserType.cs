@@ -1,3 +1,4 @@
+using FileManager.FileManagerApi.Data;
 using FileManager.FileManagerApi.GraphQL.Repositories;
 using FileManager.FileManagerApi.Models;
 
@@ -17,5 +18,11 @@ namespace FileManager.FileManagerApi.GraphQL.Users{
                 .Description("User repositories")
                 .Type<ListType<RepositoryType>>();
         }
+
+        // private class Resolvers{
+        //     public List<RepositoryModel> GetRepository([Service(ServiceKind.Synchronized)] AppDbContext context){
+        //         return context.Users.FirstOrDefault(w => w.Username == "user1")?.Repositories;
+        //     }        
+        // }
     }
 }

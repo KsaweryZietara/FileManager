@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eM58OkCRWEZ+vaNBTE3dhP2pd9/Vz5OdOwWrRCKgsDXUFM2ZE2bFsTF81sMfNJHc9wf5VAVgR6kiyzKnm2BCbw==",
+  "dgSpecHash": "TpEQ1Ie47T96WbWzrDDEZ17LZZ6uwm88m5SD3KMoLMJXV+1ADrqH0IJrr1IUZzIgMEZPyWl3aEz5Xu96xd/nrw==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\FileManager\\FileManagerApi\\FileManagerApi.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\User\\.nuget\\packages\\hotchocolate\\12.12.1\\hotchocolate.12.12.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\hotchocolate.abstractions\\12.12.1\\hotchocolate.abstractions.12.12.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\hotchocolate.aspnetcore\\12.12.1\\hotchocolate.aspnetcore.12.12.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\hotchocolate.data\\12.12.1\\hotchocolate.data.12.12.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\hotchocolate.execution\\12.12.1\\hotchocolate.execution.12.12.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\hotchocolate.fetching\\12.12.1\\hotchocolate.fetching.12.12.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\hotchocolate.language\\12.12.1\\hotchocolate.language.12.12.1.nupkg.sha512",

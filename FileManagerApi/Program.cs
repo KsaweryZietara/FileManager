@@ -18,11 +18,14 @@ builder.Services
     .AddType<FileType>()
     .AddType<FolderType>()
     .AddType<RepositoryType>()
+    .AddType<RepositoryAddedInputType>()
+    .AddType<RepositoryAddedPayloadType>()
     .AddType<UserType>()
     .AddType<UserAddedInputType>()
     .AddType<UserAddedPayloadType>()
     .AddQueryType<QueryType>()
-    .AddMutationType<MutationType>();
+    .AddMutationType<MutationType>()
+    .AddProjections();
 
 var app = builder.Build();
 
