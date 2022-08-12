@@ -16,7 +16,11 @@ opt.UseSqlServer(configuration["ConnectionStrings:SqlConnection"]));
 builder.Services
     .AddGraphQLServer()
     .AddType<FileType>()
+    .AddType<FileAddedInputType>()
+    .AddType<FileAddedPayloadType>()
     .AddType<FolderType>()
+    .AddType<FolderAddedInputType>()
+    .AddType<FolderAddedPayloadType>()
     .AddType<RepositoryType>()
     .AddType<RepositoryAddedInputType>()
     .AddType<RepositoryAddedPayloadType>()
